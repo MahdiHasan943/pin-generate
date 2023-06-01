@@ -20,7 +20,15 @@ body{
 
 
 }
-.shadow{
+.boxShadow	{
     box-shadow: 0px 1px 5px 7px rgb(25, 68, 82);
 
+}
+.boxShadow:hover{
+    transform: scale(1.1);
+}
+.button{
+    background-color: #353c4c;
+    padding: 12px;
+    border-radius: 10px;
 }
